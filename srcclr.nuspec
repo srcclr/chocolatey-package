@@ -6,11 +6,10 @@
     <packageSourceUrl>https://github.com/srcclr/chocolatey-package</packageSourceUrl>
     <owners>SourceClear</owners>
 
-    <title>srcclr</title>
+    <title>SourceClear - Security for open-source code.</title>
     <authors>SourceClear</authors>
     <projectUrl>https://www.sourceclear.com</projectUrl>
     <iconUrl>https://cdn.rawgit.com/srcclr/chocolatey-package/master/icon/srcclr.png</iconUrl>
-    <copyright>2018</copyright>
     <licenseUrl>https://download.srcclr.com/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>srcclr SourceClear Software Composition Analysis</tags>
@@ -18,6 +17,7 @@
     <description>[:] SourceClear
     Security for open-source code.
 </description>
+    <docsUrl>https://www.sourceclear.com/docs/</docsUrl>
  </metadata>
   <files>
     <file src="tools\**" target="tools" />
