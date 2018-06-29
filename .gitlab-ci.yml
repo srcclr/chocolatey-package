@@ -1,0 +1,13 @@
+image: jsyeo/chocolatey
+
+pack:
+  stage: pack
+  before_script:
+    - choco pack
+    - ls -lash
+    - choco apikey --key $CHOCO_API_KEY --source https://push.chocolatey.org/
+  script:
+    - choco push srcclr.*.nupkg --source https://push.chocolatey.org/
+  only:
+    - master
+  when: manual
