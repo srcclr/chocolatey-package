@@ -1,7 +1,7 @@
 image: jsyeo/chocolatey
 
-pack:
-  stage: pack
+deploy:
+  stage: deploy
   before_script:
     - choco pack
     - ls -lash
