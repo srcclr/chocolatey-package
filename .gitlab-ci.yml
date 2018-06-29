@@ -1,7 +1,7 @@
 image: jsyeo/chocolatey
 
 variables:
-  CHOCO_OPTS: "$CHOCO_OPTS --allow-unofficial"
+  CHOCO_OPTS: "--allow-unofficial"
 
 deploy:
   stage: deploy
