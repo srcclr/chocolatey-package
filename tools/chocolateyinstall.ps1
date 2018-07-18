@@ -9,14 +9,11 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   fileType      = 'EXE'
   url           = $url
-  url64bit      = $url
 
   softwareName  = 'srcclr*'
 
   checksum      = '5EDD6395B14E27C9578791EB2F86248BD7E799CAECFC4D3A9A7DC3E057A3D025'
   checksumType  = 'sha256'
-  checksum64    = $checksum
-  checksumType64= $checksumType
 
   validExitCodes= @(0, 3010, 1641)
 }
