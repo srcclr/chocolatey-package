@@ -1,9 +1,10 @@
 os: windows
 language: shell
-script:
+before_install:
   - choco pack
-  - choco apikey --key $CHOCO_API_KEY --source https://push.chocolatey.org/
-  - choco push srcclr.*.nupkg --source https://push.chocolatey.org/
+  - "choco apikey --key $CHOCO_API_KEY --source https://push.chocolatey.org/"
+script:
+  - "choco push srcclr.*.nupkg --source https://push.chocolatey.org/"
 env:
   global:
     secure: jMT5IEDiXAnfQgsjpHAoqX/J6lCcNUchCc+fH1qWxRrnvOiZKeOPCgGd6ltBvh35yl3jNdxyROZN5OEIdm4R1uCmdvOMrJJle8MsZmvAVntHr1+CqsFnxWnVycJ8gGKbnAc2cqJwfnaUFz9X7TnBGm0vFk5pZU8h+DpMOk6eLj0PlERT2N9lRn9djI+0SIZRuTgufBVV9Pl8E3RbjjZG+7Te1BQblmqYFXnzcxNUav4WVNSmSwcrcCp7NW6NlnCDRl7xIqxODbGsKCRzQBnLtu7+QouPSMhGnUdALvPMMtPBlymDoWbV3t0RL+Zf+cbxIezdnhHx+gs3mY85DTN3M1uWKuLO38CwWd0yqvlOBtWxkUxB7b9FZti/wGHho0js7jfpIzLBu53EjAQMBpB6akeysMl0A7Dz6ZEvNVf3Ga5LIXhdz351pHiPH0NoTk/Hys68EhdpVynjXTasTczKJsmS39DQY2zLbXC3C0xBK0oOTt6f7UQh0OxrPHQ52JaWzLaG9K0ynOt/XelDvG20FINDeGjpygST5/48Pam4+QuCkwI3gEf7f5OxI+0KTeBYcBpp+Dm0QOi1OszVodxf7Ik2to4mLgU4v7XGOyfa54MnIbxhCVvrNUB4yEhE4Xqts+i+Zc0zwfZTowV8UpmKEo49fXQuJQX7JQpy92LEIyc=
