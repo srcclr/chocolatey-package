@@ -1,7 +1,7 @@
 os: windows
 language: shell
 before_install:
-  - choco --version
+  - bash -c "choco --version"
   - choco pack
   - "choco apikey --key $CHOCO_API_KEY --source https://push.chocolatey.org/"
 script:
