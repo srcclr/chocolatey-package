@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'srcclr*'
 
-  checksum      = 'a01b2a3b8df4865ec88c07afb26950ea728219e3d187e8f51ecf4fced4ad8c16'
+  checksum      = '4e2a5be078cc0db655178600b5193ec55482583c61956ff0b72477f71be2309a'
   checksumType  = 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
