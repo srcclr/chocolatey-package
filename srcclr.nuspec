@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
    <id>srcclr</id>
-   <version>3.1.13</version>
+   <version>3.1.14</version>
     <packageSourceUrl>https://github.com/srcclr/chocolatey-package</packageSourceUrl>
     <owners>SourceClear</owners>
 
