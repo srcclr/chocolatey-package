@@ -17,7 +17,7 @@ $packageArgs = @{
   checksum       = '5ce02e0c1eb47661a4699d3ccdf44a171a95c84db74550f41ab1f2bdea9993fa'
   checksumType   = 'sha256'
 
-  checksum64     = '1677072902986ed52209861a49fdfa9016d1406a2456cd41c453a7c9c99a8cd5'
+  checksum64     = '22e62046ba6cc6fe16ce5c434bddc939c776236ac771acdebace309d46a35da0'
   checksumType64 = 'sha256'
 
   validExitCodes = @(0, 3010, 1641)
